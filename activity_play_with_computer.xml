@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".PlayWithComputer">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="128dp"
+        android:layout_height="49dp"
+        android:background="#54A9B4"
+        android:text="Human"
+        android:textColor="#311B92"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="177dp"
+        android:layout_height="173dp"
+        android:contentDescription="@string/todo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/rocksoza" />
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="71dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01">
+
+        <Button
+            android:id="@+id/rock1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:background="#EDDE5C"
+            android:padding="2dp"
+            android:text="@string/rock"
+            android:textColor="#795548" />
+
+        <Button
+            android:id="@+id/paper1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:background="#EDDE5C"
+            android:padding="2dp"
+            android:text="@string/paper"
+            android:textColor="#795548" />
+
+        <Button
+            android:id="@+id/sci1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:background="#EDDE5C"
+            android:padding="2dp"
+            android:text="@string/scissors"
+            android:textColor="#795548" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="406dp"
+        android:layout_height="71dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995">
+
+        <Button
+            android:id="@+id/rock2"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:background="#EDDE5C"
+            android:padding="2dp"
+            android:text="ROCK"
+            android:textColor="#795548" />
+
+        <Button
+            android:id="@+id/paper2"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:background="#EDDE5C"
+            android:padding="2dp"
+            android:text="PAPER"
+            android:textColor="#795548" />
+
+        <Button
+            android:id="@+id/sci2"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+            android:background="#EDDE5C"
+            android:padding="2dp"
+            android:text="SCISSORS"
+            android:textColor="#795548" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="186dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@drawable/rocksoza" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="124dp"
+        android:layout_height="34dp"
+        android:text="TextView"
+        android:textColor="#170C0C"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toEndOf="@+id/Pla2"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="128dp"
+        android:layout_height="49dp"
+        android:background="#54A9B4"
+        android:text="Computer"
+        android:textColor="#311B92"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
